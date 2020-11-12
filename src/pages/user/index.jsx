@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { View, Text } from '@tarojs/components'
 import './index.scss'
 
-export default class Index extends Component {
+export default class User extends Component {
 
   componentWillMount () { }
 
@@ -16,8 +16,8 @@ export default class Index extends Component {
 
   render () {
     return (
-      <View className='index'>
-        <Text>Hello Home!</Text>
+      <View className='user'>
+        <Text>Hello User!</Text>
       </View>
     )
   }
